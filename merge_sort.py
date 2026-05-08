@@ -1,11 +1,13 @@
 import random
 
-nums = [42, -7, 13, 0, 88, -23, 5, 19, -11, 64, 2, -35, 77, 9, -4]
+nums = [17, -4, 29, 0, 13, -22, 8, 45, -9, 31,
+        6, -15, 27, 3, -1, 50, -33, 12, 19, -7,
+        41, 2, -18, 25, 9, -11, 36, 14, -2, 48] # them conflict
 
-# pi vot = nums[random.randi nt(0, len(nums) - 1)]
+# pi vot = nums[random.randint(0, len(nums) - 1)]
 # pri nt(pi vot)
 
-def merged_sort(nums):
+def merge_sort(nums):
     mid = len(nums)//2
     
     if len(nums) == 1:
@@ -14,8 +16,8 @@ def merged_sort(nums):
     left = nums[:mid]
     right = nums[mid:]
 
-    l = merged_sort(left)
-    r = merged_sort(right)
+    l = merge_sort(left)
+    r = merge_sort(right)
     result = []
     i,j = 0,0
     while i < len(l) and j < len(r):
@@ -36,4 +38,4 @@ def merged_sort(nums):
     
     return result
 
-print(merged_sort(nums))
+print(merge_sort(nums))
