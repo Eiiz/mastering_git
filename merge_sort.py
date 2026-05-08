@@ -1,6 +1,8 @@
 import random
 
-nums = [42, -7, 13, 0, 88, -23, 5, 19, -11, 64, 2, -35, 77, 9, -4] # Them conflict
+nums = [17, -4, 29, 0, 13, -22, 8, 45, -9, 31,
+        6, -15, 27, 3, -1, 50, -33, 12, 19, -7,
+        41, 2, -18, 25, 9, -11, 36, 14, -2, 48] # them conflict
 
 # pi vot = nums[random.randint(0, len(nums) - 1)]
 # pri nt(pi vot)
