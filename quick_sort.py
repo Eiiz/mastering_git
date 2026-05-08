@@ -1,6 +1,6 @@
 import random
 
-nums = [42, -7, 13, 0, 88, -23, 5, 19, -11, 64, 2, -35, 77, 9, -4]
+# nums = [42, -7, 13, 0, 88, -23, 5, 19, -11, 64, 2, -35, 77, 9, -4]
 
 def quick_sort(nums):
     if len(nums) <= 1:
@@ -25,4 +25,4 @@ def quick_sort(nums):
 
 
 
-print(quick_sort(nums))
+# print(quick_sort(nums))

@@ -1,11 +1,11 @@
 import random
 
-nums = [17, -4, 29, 0, 13, -22, 8, 45, -9, 31,
-        6, -15, 27, 3, -1, 50, -33, 12, 19, -7,
-        41, 2, -18, 25, 9, -11, 36, 14, -2, 48] # them conflict
+# nums = [17, -4, 29, 0, 13, -22, 8, 45, -9, 31,
+#         6, -15, 27, 3, -1, 50, -33, 12, 19, -7,
+#         41, 2, -18, 25, 9, -11, 36, 14, -2, 48] # them conflict
 
-# pi vot = nums[random.randint(0, len(nums) - 1)]
-# pri nt(pi vot)
+# # pi vot = nums[random.randint(0, len(nums) - 1)]
+# # pri nt(pi vot)
 
 def merge_sort(nums):
     mid = len(nums)//2
@@ -38,4 +38,4 @@ def merge_sort(nums):
     
     return result
 
-print(merge_sort(nums))
+# print(merge_sort(nums))
