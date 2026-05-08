@@ -1,4 +1,5 @@
 from merge_sort import merge_sort
+from quick_sort import quick_sort
 
 nums = [17, -4, 29, 0, 13, -22, 8, 45, -9, 31,
         6, -15, 27, 3, -1, 50, -33, 12, 19, -7,
@@ -6,7 +7,7 @@ nums = [17, -4, 29, 0, 13, -22, 8, 45, -9, 31,
 
 
 def s3sum(nums):
-    nums = merge_sort(nums)
+    nums = quick_sort(nums)
     # return nums
 
     for i in range(len(nums)):
